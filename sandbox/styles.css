@@ -1,0 +1,73 @@
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 10vh;
+}
+
+.box {
+    border: solid black 1px;
+    height: 200px;
+    width: 200px;
+}
+
+#top-header {
+    height: 10vh;
+    width: 100%;
+    background-color: bisque;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#first-section {
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+#second-section {
+    background-color: blue;
+    position: absolute;
+    left: 200px;
+    top: 500px;
+}
+
+#third-section {
+    background-color: yellow;
+    position: sticky;
+    top: 200px;
+}
+
+#fourth-section {
+    background-color: red;
+}
+
+/* .nav-button {
+    height: 30px;
+} */
+
+.blue-text {
+    color: blue;
+}
+
+#one-div {
+    height: 300px;
+    width: 300px;
+    border: 10px dotted aqua;
+    display: inline-block;
+    margin: 50px;
+    box-sizing: content-box;
+}
+
+#another-div {
+    height: 300px;
+    width: 300px;
+    border: 10px dashed black;
+    display: inline-block;
+    margin: 50px;
+    box-sizing: border-box;
+}
